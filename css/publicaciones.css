@@ -1,0 +1,160 @@
+body {
+    background: whitesmoke;
+}
+
+section{
+    background: whitesmoke;
+    padding: 45px 40px;
+}
+
+.main {
+    background: white;
+}
+
+.menu-buscador {
+    background: #05386B;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.menu-buscador .form-buscador input{
+    width: 50%;
+    margin-left: 7px;
+}
+
+.menu-buscador .form-buscador button {
+    background: #5cdb95;
+    color: white;
+    border: #5cdb95;
+}
+
+section .public-y-paginacion h1 {
+    font-size: 35px;
+    color: #05386B;
+    font-weight: 600;
+}
+
+.public-y-paginacion {
+    margin-top: 3%;
+}
+
+.public-y-paginacion .alert {
+    background:rgb(85, 129, 173);
+    width: 60%;
+    border: #ffffff;
+    color: white;
+}
+
+.public-y-paginacion .alert button:hover {
+    color: #05386B
+}
+
+.public-y-paginacion h1 {
+    margin-bottom: 3%;
+}
+
+.public-y-paginacion .publicacion{
+    border: 1px solid #dbdbdb;
+    padding: 3% 4%;
+    transition: all 300ms;
+}
+
+.public-y-paginacion .publicacion:hover{
+    background : whitesmoke;
+    cursor:pointer;
+}
+
+.public-y-paginacion a{
+    text-decoration: none;
+}
+
+.public-y-paginacion a h4{
+    color: #05386B;
+    font-weight: 600;
+}
+
+.public-y-paginacion .publicaciones a p,
+.public-y-paginacion .publicaciones a h4{
+    text-decoration: none;
+    margin-bottom: -12px;
+}
+
+.public-y-paginacion .publicacion{
+    text-decoration: none;
+}
+
+.public-y-paginacion .publicacion .descripcion {
+    padding: 10px;
+    background: white;
+}
+
+.public-y-paginacion .publicacion .categoria-fecha p {
+    font-weight: 600;
+}
+
+.public-y-paginacion .publicacion .categoria-fecha .fecha {
+    color: #2dc06f;
+}
+
+.public-y-paginacion .publicacion p{
+    color: #05386B;
+    transition: all 300ms;
+}
+
+.public-y-paginacion .publicacion h4{
+    color: #05386B;
+}
+
+.categorias {
+    margin: 7% 0 10% 3%;
+}
+
+.main .categorias a,
+.main .categorias li {
+    max-width: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    transition: all 300ms;
+}
+
+.main .categorias a:hover,
+.main .categorias li:hover {
+    background: #eeeeee;
+    text-decoration: none;
+}
+
+#tituloCat:hover {
+    background: #05386B;
+}
+
+.main .categorias .active:hover{
+    background: #5cdb95;;
+}
+
+.main .categorias li {
+    text-align: center;
+    background: #05386B;
+    padding: 3% 0;
+}
+
+.main .categorias .active,
+.page-item.active .page-link{
+    background: #5cdb95;
+    border-color: #5cdb95;
+    color:white;
+}
+
+@media only screen and (max-width: 410px) {
+    .page-item .numeracion{
+        display: none;
+    }
+
+    .main .categorias {
+        margin-left: 40px;
+    }
+
+    section .public-y-paginacion h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+}

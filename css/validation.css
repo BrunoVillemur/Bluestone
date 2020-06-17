@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/Gilroy/Gilroy-Bold.ttf")
+}
+
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url("../fonts/Gilroy/Gilroy-Regular.ttf")
+}
+
+body {
+    color: #EDF5E1;
+    background: whitesmoke;
+}
+
+*[role="contenido"] {
+    max-width: 530px;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+*[role="contenido"] h2 {
+    margin: auto;
+    padding: 0.3em 0;
+    text-align: center;
+    font-family: "Gilroy-Bold";
+}
+
+
+.contenido-horizontal{
+    background-color: #05386B;
+    margin: 50px auto;
+    text-align: center;
+}
+

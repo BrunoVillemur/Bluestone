@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/Gilroy/Gilroy-Bold.ttf")
+}
+
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url("../fonts/Gilroy/Gilroy-Regular.ttf")
+}
+
+body {
+    color: #EDF5E1;
+    background: whitesmoke;
+}
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.form-subida{
+    max-width: 700px;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.form-subida .form-group label{
+    margin-left: 60px;
+    text-align: left;
+    font-weight: 500;
+    font-family: "Gilroy-Regular";
+}
+
+*[role="form"] h2 {
+    margin: auto;
+    padding: 0.3em 0;
+    text-align: center;
+    font-family: "Gilroy-Bold";
+}
+
+.form-group{
+    margin-top: 20px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 80%;
+    margin: auto;
+}
+
+.form-group textarea {
+    min-height: 150px;
+    max-height: 250px;
+}
+
+.form-group label{
+    margin-left: 44px;
+    text-align: left;
+    font-weight: 500;
+    font-family: "Gilroy-Regular";
+}
+
+.form-horizontal{
+    background-color: #05386B;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.btn{
+    background-color: #5cdb95;
+    margin: 30px auto;
+    transition: all 300ms;
+    font-weight: 600;
+}
+
+.form-group input[type="submit"]{
+    width: 75%;
+}
+
+.btn:hover {
+    background-color: #2fe782;
+}
+
+.alert{
+    width: 75%;
+    padding:0.2em;
+    margin: auto;
+}
+
+.alert p{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    text-align: left;
+}
+
+/* Subida archivo */
+
+@media only screen and (max-width: 600px) { 
+    .form-group label{
+        margin-left: 10%;
+    }
+    
+    .form-subida .form-group label{
+        margin-left: 10%;
+    }
+    
+}
+

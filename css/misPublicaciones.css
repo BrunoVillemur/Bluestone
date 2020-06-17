@@ -1,0 +1,97 @@
+
+.tituloMisPublicaciones {
+    margin: 20px auto;
+    font-family: "Gilroy-Bold";
+}
+
+.tituloMisPublicaciones h2 {
+    text-align: center;
+    color: #05386B;
+}
+
+table th{
+    width: 20%;
+}
+
+table th {
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    background: #05386B;
+}
+
+table .publicacion {
+    background: inherit;
+    transition: all 300ms;
+}
+
+table .publicacion td{
+    font-size: 1.1em;
+    font-weight: 500;
+    text-align: center;
+    color: #05386B;
+}
+
+table .publicacion td a{
+    color: #05386B;
+}
+
+table .publicacion td a:hover {
+    text-decoration: none;
+}
+
+table .verde {
+    background: #5cdb9552;
+}
+
+table .publicacion:hover{
+    background: #05386b3a;
+}
+
+table .acciones {
+    width: 20%;
+}
+
+.iconos {
+    text-align: center;
+}
+
+.iconos a {
+    margin: 0 4px;
+}
+
+i img {
+    text-align: center;
+    width: 20%;
+    padding: 5px 10px;
+    background: #05386bbe;
+    border-radius: 5px;
+}
+
+.iconos a:hover {
+    text-decoration: none;
+}
+
+.sinPublicacion {
+    padding: 20px;
+    text-align: center;
+    color: #05386B;
+}
+
+@media only screen and (max-width: 900px) {
+    .none {
+        display: none;
+    }
+
+    i img {
+        width: 20%;
+        padding: 5px 10px;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    i img {
+        width: 40%;
+    }
+}

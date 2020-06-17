@@ -1,0 +1,78 @@
+
+.alert {
+    margin: 2% auto;    
+    width: 80%;
+}
+
+.publicacion,
+.misPublicaciones {
+    margin: 2% auto;
+    width: 80%;
+    background: white;
+}
+
+.publicacion .dropdown-menu {
+    background: whitesmoke;
+}
+
+.publicacion .dropdown-menu .dropdown-item {
+    transition: all 100ms;
+}
+
+.publicacion .dropdown-menu .dropdown-item:hover {
+    background-color: #5cdb95;
+    color: #fff;
+}
+
+.textos .titulo {
+    width: 100%;
+    padding: 20px 20px 10px 20px;
+    border-bottom: 4px solid #5cdb95;;
+    background: #05386B;
+}
+
+.textos  .acciones {
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.textos h1 {
+    color: #5cdb95;
+}
+
+.textos h4 {
+    color: #05386B;
+}
+
+.textos .descripcion{
+    padding: 20px;
+}
+
+.textos .btn-group .btn{
+    background: #5cdb95;
+    border: #5cdb95;
+}
+
+.textos .btn-group .btn:hover {
+    background: #379683;
+}
+
+#candidato {
+    font-weight: 500;
+    color: #05386B;
+}
+
+#fecha {
+    font-size: 14px;
+}
+
+.textos .descripcion .categoria{
+    margin-bottom: -10px;
+}
+
+.textos .descripcion .btn {
+    background: #5cdb95;
+    color: #05386B;
+    font-weight: 500;
+}
+
